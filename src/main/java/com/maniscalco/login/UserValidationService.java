@@ -2,6 +2,9 @@ package com.maniscalco.login;
 
 import java.util.HashMap;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class UserValidationService {
 
 	public boolean isUserValid(String user, String password) {

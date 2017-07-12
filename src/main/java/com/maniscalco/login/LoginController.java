@@ -1,6 +1,7 @@
 package com.maniscalco.login;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +14,8 @@ import com.maniscalco.login.UserValidationService;
 @Controller
 public class LoginController {
 	
-	UserValidationService service = new UserValidationService();
+	@Autowired
+	UserValidationService service;
 	
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String showLoginPage() {
