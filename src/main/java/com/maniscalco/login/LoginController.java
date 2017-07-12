@@ -1,4 +1,5 @@
-package com.mmorgan.springmvc;
+package com.maniscalco.login;
+
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -7,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.mmorgan.jee.UserValidationService;
+import com.maniscalco.login.UserValidationService;
 
 @Controller
 public class LoginController {
