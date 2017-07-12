@@ -1,4 +1,4 @@
-package com.mmorgan.jee;
+package com.maniscalco.login;
 
 import java.util.HashMap;
 
