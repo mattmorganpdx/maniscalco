@@ -8,5 +8,7 @@
 </head>
 <body>
 Welcome ${name}! The hascode of your password is ${password}
+<br/>
+Now you can <a href="/list-todos">manage</a> your todos.
 </body>
 </html>

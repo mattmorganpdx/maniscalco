@@ -7,7 +7,7 @@
 <title>Todos</title>
 </head>
 <body>
-Your todos are:
+Hi ${name}! Your todos are:<br/>
 ${todos}
 </body>
 </html>
